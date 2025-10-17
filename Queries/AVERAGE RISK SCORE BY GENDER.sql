@@ -1,0 +1,5 @@
+SELECT d.GENDER, 
+    ROUND(AVG(r.RISK_SCORE),0) AS RISK_SCORE
+FROM demographics d
+JOIN risk_groups r ON d.RECORD_ID = r.RECORD_ID
+GROUP BY d.GENDER;
