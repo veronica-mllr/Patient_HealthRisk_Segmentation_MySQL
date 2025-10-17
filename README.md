@@ -1,12 +1,12 @@
-Patient Health Risk Segmentation — MySQL Analysis
+# Patient Health Risk Segmentation — MySQL Analysis
 
-Overview
+## Overview
 
 This repository contains the MySQL implementation of the Patient Health Risk Segmentation project.
 The dataset was originally sourced from Kaggle, then analyzed and segmented in Python to identify patient risk groups based on demographic and health-related factors.
 The processed and segmented data were later imported into MySQL for further analysis, validation of Python outputs, and visualization through SQL queries.
 
-Project Components
+## Project Components
 
 * **`patient_data`** — Main dataset containing patient records and health risk information
 * **`demographics`** — Contains patient demographic data (age, gender, and location)
@@ -14,7 +14,7 @@ Project Components
 * **`risk_groups`** — Categorizes patients into different health risk levels (Low, Moderate, High, Very High)
 
 
-SQL scripts for:
+## SQL scripts for:
 
   * Creating relational tables (`CREATE TABLE` statements)
   * Cleaning and transforming data
@@ -27,7 +27,7 @@ SQL scripts for:
     * Cross-validation of Python segmentation results
 
 
-Purpose
+## Purpose
 
 The MySQL version demonstrates how structured query language can be used to:
 
@@ -37,7 +37,7 @@ The MySQL version demonstrates how structured query language can be used to:
 
 
 
-Note
+## Note
 
 This repository focuses solely on **MySQL database design and analysis**.
 The **Python data preprocessing, feature engineering, and segmentation modeling** are available in a separate repository.
