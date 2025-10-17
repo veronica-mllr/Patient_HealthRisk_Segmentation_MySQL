@@ -26,6 +26,9 @@ The processed and segmented data were later imported into MySQL for further anal
     * Demographic and health factor correlations
     * Cross-validation of Python segmentation results
 
+## Tools Used
+
+* MySQL
 
 ## Purpose
 
